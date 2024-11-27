@@ -1,9 +1,10 @@
 // COLORS
 // Color palette
 $primary: #e50914;
-$secondary: #f5f5f1; 
-$dark: #221f1f;
-$light: #ffffff;
+$secondary: #4a2e2f; 
+$my: #4a2e2f;
+$dark: #45595b;
+$light: #f4f6f8;
 $info: #778ad4;
 $success: #23b893;
 $warning: #f79926;
@@ -11,3 +12,23 @@ $danger: #ea535a;
 // GLOBAL OPTIONS
 // Shadows
 $enable-shadows: true;
+
+$body-color: #747d88;
+
+$headings-color: $dark;
+
+$headings-font-weight: 600;
+
+$display-font-weight: 800;
+
+$enable-responsive-font-sizes: true;
+
+$border-radius: 10px;
+
+$border-radius-sm: $border-radius;
+
+$border-radius-lg: $border-radius;
+
+$link-decoration: none;
+
+$enable-negative-margins: true;

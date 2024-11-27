@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 const BootstrapClientJS = () => {
   useEffect(() => {
-    require("../../../public/js/jquery-3.7.0.slim.min.js");
+    require("../../../public/js/jquery-3.2.1.slim.min.js");
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
     //require("../../../public/js/bootstrap.bundle.min.js");
     //require("../../../public/js/easing/easing.min.js");

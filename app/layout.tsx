@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
+import Script from "next/script";
 import "./assets/sass/globals.scss";
+import "../public/js/bootstrap-icons/font/bootstrap-icons.min.css";
+import "../public/js/lightbox/css/lightbox.min.css";
+import "../public/js/owlcarousel/assets/owl.carousel.min.css";
 import "jquery-ui-dist/jquery-ui.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 //import { inter } from "@/app/components/Fonts/Fonts";
@@ -37,8 +41,7 @@ export default function RootLayout({
       <body>
         <DynamicHeaderWithNoSSR />
         <div className="container-fluid">{children}</div>
-        <Bs5 />
-        <JS />
+       <JSLib />
       </body>
     </html>
   );
