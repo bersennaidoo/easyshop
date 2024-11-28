@@ -2,7 +2,7 @@ import { prisma } from "@/app/domain/foundation/db/prisma";
 import { redirect } from "next/navigation";
 
 export const metadata = {
-  title: "Add Product - Flowmazon",
+  title: "Add Product - Easy2Shop",
 };
 
 async function addProduct(formData: FormData) {
