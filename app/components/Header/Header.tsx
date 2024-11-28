@@ -80,7 +80,7 @@ const Header = () => {
                     className="nav-link dropdown-toggle"
                     data-bs-toggle="dropdown"
                   >
-                    Pages
+                    Admin
                   </a>
                   <div className="dropdown-menu m-0 bg-secondary rounded-0">
                     <a href="/cart" className="dropdown-item">
@@ -92,6 +92,10 @@ const Header = () => {
                     <a href="/testimonial" className="dropdown-item">
                       Testimonial
                     </a>
+                     <a href="/add-product" className="dropdown-item">
+                      Add Product
+                    </a>
+
                   </div>
                 </div>
                 <a href="/contact" className="nav-item nav-link">
